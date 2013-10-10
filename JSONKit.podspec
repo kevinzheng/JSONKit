@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author   = 'John Engelhart, Michael Gauthier'
   s.source   = { :git => 'https://github.com/JoistApp/JSONKit.git' }
 
-  s.source_files = 'JSONKit.*'
+  s.source_files = 'JSONKit.{h,m}'
   s.requires_arc = false
 end
