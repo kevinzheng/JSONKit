@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/JoistApp/JSONKit.git', :tag => 'v1.6' }
 
   s.source_files = 'JSONKit.*'
-  s.requires_arc = true
+  s.requires_arc = false
 end
