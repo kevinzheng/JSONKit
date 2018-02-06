@@ -724,7 +724,7 @@ static void _JKArrayRemoveObjectAtIndex(JKArray *array, NSUInteger objectIndex) 
 
 - (id)initWithCount:(NSUInteger)initCount
 {
-    self = [self init];
+    self = [super init];
     if (self) {
         count = initCount;
         capacity = initCount;
@@ -955,7 +955,7 @@ static JKDictionary *_JKDictionaryCreate(id *keys, NSUInteger *keyHashes, id *ob
 
 - (id)initWithCapacity:(NSInteger)initCapacity
 {
-    self = [self init];
+    self = [super init];
     if (self) {
         capacity = initCapacity;
         count = 0UL;
